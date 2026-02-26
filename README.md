@@ -42,6 +42,8 @@ This helps clean up the codebase by eliminating unnecessary components.
 ```md
 Run `npx npm-check-updates -u` to update package.json with the latest dependencies.
 Then, run `npm install` to install the updated versions.
+Check the changelogs for any breaking changes, make required adjustments, and ensure nothing is broken.
+If issues arise, revert the version changes to the last working one and reinstall dependencies.
 ```
 
 ### 4. 
@@ -50,4 +52,5 @@ Analyze the codebase and refactor it to improve readability, structure, and clar
 so that models like Codex or Claude Code can understand and modify it more effectively.
 Focus on simplifying logic, clarifying naming, reducing complexity, and removing technical debt,
 while preserving functionality and verifying correctness.
+Update the AGENTS.md file to reflect any changes made to the codebase and ensure it remains clear, accurate and concise.
 ```
