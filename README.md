@@ -54,3 +54,11 @@ Focus on simplifying logic, clarifying naming, reducing complexity, and removing
 while preserving functionality and verifying correctness.
 Update the AGENTS.md file to reflect any changes made to the codebase and ensure it remains clear, accurate and concise.
 ```
+
+---
+
+## Prompts for testing
+
+```md
+Test the whole application in a browser to automatically find and fix bugs and edge cases.
+```
