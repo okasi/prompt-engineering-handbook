@@ -1,4 +1,4 @@
-# Prompt Engineering Handbook - Concise 📖
+# Prompt Engineering Handbook - Concise Prompts 📖
 
 ## Prompts to queue after significant additions/changes
 
