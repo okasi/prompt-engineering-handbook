@@ -59,6 +59,12 @@ Update the AGENTS.md file to reflect any changes made to the codebase and ensure
 
 ## Prompts for testing
 
+### Whole app:
 ```md
-Test the whole application in a browser to automatically find and fix bugs and edge cases.
+Test the whole application thoroughly in a browser to automatically find and fix bugs and edge cases.
+```
+
+### Feature:
+```md
+Test the feature thoroughly in a browser to automatically find and fix bugs and edge cases.
 ```
