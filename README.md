@@ -2,21 +2,19 @@
 
 ## Prompts to queue after significant additions/changes
 
-### 1. 3x spam:
+### Queue two times:
 ```md
-Are you sure all work is complete? 
-Be brutally honest. 
-If any part is missing, unclear, or could be parallelized better 
-— create more subagents right now and delegate.
-```
+When done, with fresh eyes,
+review your changes with 2 subagents,
+fix any issues,
+then repeat until no issues are found.
 
-### 2. 1x:
-```md
-When done, 
-with fresh eyes, 
-review your changes with 2 subagents, 
-fix any issues, 
-then repeat until no issues found.
+If anything is missing, unclear,
+or could be parallelized better,
+create more subagents right now and delegate.
+
+Be brutally honest about whether all work is complete,
+then repeat until no issues are found.
 ```
 
 ---
