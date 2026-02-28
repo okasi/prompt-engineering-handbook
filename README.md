@@ -48,7 +48,8 @@ If issues arise, revert the version changes to the last working one and reinstal
 ```md
 Analyze the whole codebase and refactor it to improve readability, structure, and clarity,
 ensuring that coding agents like Codex by OpenAI, Claude Code by Anthropic, and Copilot by GitHub can understand and modify it more effectively. 
-Simplify logic, clarify naming, reduce complexity, and eliminate technical debt while preserving functionality and verifying correctness. 
+Simplify logic, clarify naming, reduce complexity, eliminate technical debt,
+and optimize performance to enhance efficiency, all while preserving functionality and verifying correctness. 
 Ensure a minimal directory structure, align directory names with the material-icons naming convention. 
 Update the AGENTS.md file to reflect any changes made to the codebase, ensuring it remains clear, accurate, and concise.
 ```
