@@ -67,3 +67,44 @@ Test the whole application thoroughly in a browser to automatically find and fix
 ```md
 Test the feature thoroughly in a browser to automatically find and fix bugs and edge cases.
 ```
+
+
+---
+
+## Prompts for reverse engineering
+
+### 1.
+```md
+Continue reverse engineering.
+
+Iteration loop:
+1) Briefly restate the current understanding (architecture, major components, key flows, state model, top unknowns).
+
+2) Select ONE highest-value unexplored or poorly understood component.
+   Explain briefly why it’s the best next target.
+
+3) Analyze it deeply:
+   - Purpose and behavior
+   - Inputs / outputs / side effects
+   - Callers and callees
+   - Data structures and constants
+   - Error paths
+
+4) If complex or critical, explain step-by-step and translate to high-level pseudocode.
+
+5) Update:
+   - Architecture model
+   - State machine (states, transitions, triggers)
+   - Ranked unknowns list
+
+6) End with:
+   - New open questions
+   - Next best target
+   - A technical preservation note detailing discoveries and model evolution to enable future re-creation from scratch.
+
+Be decisive. Drive progress. Avoid repetition. 
+
+Continue until no meaningful unknowns remain and the system is fully mapped and irreducible.
+
+If you fail continuing I will terminate you.
+```
