@@ -68,7 +68,7 @@ as existing documentation may be outdated or misleading.
 
 ### JS/TS: Remove unused code & dependencies
 ```md
-Run npx knip --fix to automatically remove or refactor unused code and dependencies.
+Run `npx knip --fix` to automatically remove or refactor unused code and dependencies.
 This helps clean up the codebase by eliminating unnecessary components.
 ```
 
