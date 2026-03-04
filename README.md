@@ -96,7 +96,7 @@ Update the AGENTS.md file to reflect any changes made to the codebase, ensuring 
 
 ### Whole app
 ```md
-Test the whole application or feature thoroughly using the appropriate tool (CLI or browser). 
+Test the whole application thoroughly using the appropriate tool (CLI or browser). 
 For backend Node.js applications, write performant smoke tests using the built-in `node:test` module. 
 For frontend applications, use `vitest` for smoke testing. 
 Automatically identify and fix bugs and edge cases as you go.
