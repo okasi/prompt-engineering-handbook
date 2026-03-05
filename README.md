@@ -21,55 +21,28 @@ then repeat until no issues are found.
 ```md
 Continue reverse engineering.
 
-Iteration loop:
-1) Briefly restate the current understanding (architecture, major components, key flows, state model, top unknowns).
+1. Restate the MODEL + top UNKNOWNS.
+2. Pick ONE highest-value next TARGET (why).
+3. DEEP-DIVE: purpose, I/O + side effects, callers/callees, data/constants, ERROR paths.
+4. If needed: STEP TRACE + PSEUDOCODE.
+5. UPDATE: architecture, STATE MACHINE, ranked unknowns.
+6. END: open questions, next target, PRESERVATION NOTE.
 
-2) Select ONE highest-value unexplored or poorly understood component.
-   Explain briefly why it’s the best next target.
-
-3) Analyze it deeply:
-   - Purpose and behavior
-   - Inputs / outputs / side effects
-   - Callers and callees
-   - Data structures and constants
-   - Error paths
-
-4) If complex or critical, explain step-by-step and translate to high-level pseudocode.
-
-5) Update:
-   - Architecture model
-   - State machine (states, transitions, triggers)
-   - Ranked unknowns list
-
-6) End with:
-   - New open questions
-   - Next best target
-   - A technical preservation note detailing discoveries and model evolution to enable future re-creation from scratch.
-
-Be decisive. Drive progress. Avoid repetition. 
-
-Continue until no meaningful unknowns remain and the system is fully mapped and irreducible.
-
-If you fail continuing I will terminate you.
+Continue until fully mapped and irreducible—stop only when zero meaningful unknowns remain.
 ```
 
 ### Implementation
 ```md
-Implement findings.
+Continue implementation using the existing reverse-engineering docs as source of truth.
 
-Loop:
+1. Restate the PLAN + top RISKS/BLOCKERS.
+2. Pick ONE highest-value next CHANGE to ship (why).
+3. IMPLEMENT: exact edits (where/what), configs/migrations, deps, and TESTS.
+4. If needed: STEP-BY-STEP rollout + fallback/rollback.
+5. UPDATE: architecture/state deltas, invariants, ranked remaining backlog.
+6. END: what shipped, verification results, new issues, next change, PRESERVATION NOTE.
 
-Restate the latest verified conclusions and the one goal for this iteration.
-
-Choose one highest-impact change to ship next (brief why).
-
-Implement: exact edits (where/what), migrations/config, and required tests.
-
-Verify: how to validate + expected outputs + key edge/failure cases.
-
-Update: architecture/state deltas + ranked remaining backlog.
-
-End: what shipped, new risks/questions, next change, preservation note (evidence → change).
+Continue until the work is COMPLETE and stable—stop only when zero critical TODOs remain.
 ```
 
 ---
