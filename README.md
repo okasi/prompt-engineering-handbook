@@ -53,6 +53,25 @@ Continue until no meaningful unknowns remain and the system is fully mapped and 
 If you fail continuing I will terminate you.
 ```
 
+### Implementation
+```md
+Implement findings.
+
+Loop:
+
+Restate the latest verified conclusions and the one goal for this iteration.
+
+Choose one highest-impact change to ship next (brief why).
+
+Implement: exact edits (where/what), migrations/config, and required tests.
+
+Verify: how to validate + expected outputs + key edge/failure cases.
+
+Update: architecture/state deltas + ranked remaining backlog.
+
+End: what shipped, new risks/questions, next change, preservation note (evidence → change).
+```
+
 ---
 
 ## Refactoring prompts
