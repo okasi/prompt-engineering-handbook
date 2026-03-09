@@ -101,3 +101,13 @@ For backend Node.js applications, write performant smoke tests using the built-i
 For frontend applications, use `vitest` for smoke testing. 
 Automatically identify and fix bugs and edge cases as you go.
 ```
+
+---
+
+## Longer self steer
+
+- https://developers.openai.com/cookbook/articles/codex_exec_plans
+
+```md
+Create a comprehensive task list that covers every aspect of the plan so that it keeps you focused across compactions - at least 20 items or more if appropriate
+```
