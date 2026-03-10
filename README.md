@@ -111,3 +111,10 @@ Automatically identify and fix bugs and edge cases as you go.
 ```md
 Create a comprehensive task list that covers every aspect of the plan so that it keeps you focused across compactions - at least 20 items or more if appropriate
 ```
+
+---
+
+## Reverse engineer repo/extensions
+```md
+Make a directory in "docs" called "{{REPO_NAME}}" and make a PRD with technical details (e.g. including system prompts), read/reverse-engineer this https://chromewebstore.google.com/detail/REPO_NAME
+```
