@@ -15,7 +15,6 @@ Use the original Boxhead art assets for characters, zombies, and environments.
 ## Fire and Bombs
 
 ```md
-https://www.twoplayergames.org/game/fire-and-bombs
 Create a two‑player top‑down bomber arena game using HTML5/JavaScript and Canvas or Phaser.
 The gameplay should be exactly like [Fire and Bombs](https://www.twoplayergames.org/game/fire-and-bombs) where players move on a grid,
 place bombs to destroy obstacles and opponents, and collect power‑ups from destroyed blocks.
