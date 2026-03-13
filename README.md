@@ -118,3 +118,14 @@ Create a comprehensive task list that covers every aspect of the plan so that it
 ```md
 Make a directory in "docs" called "{{REPO_NAME}}" and make a PRD with technical details (e.g. including system prompts), read/reverse-engineer this https://chromewebstore.google.com/detail/REPO_NAME
 ```
+
+
+---
+
+## Taste / UI
+
+### Liquid glass
+```md
+xbox360 UI meets Spike Jonze's Her meets Liquid Glass
+```
+
